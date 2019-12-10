@@ -24,9 +24,18 @@ textContent.addEventListener("mouseenter", () => {
 textContent.addEventListener("mouseout", () => {
     textContent.style.color = "black";
 })
-//
 
-//
+// Resize window event
+const images = document.querySelector("img")
+window.addEventListener("resize", () => {
+    images.style.display = "none";
+
+})
+
+// Load window event
+window.addEventListener("load", () => {
+    alert("click and hover and see what you discover!");
+})
 
 //
 
